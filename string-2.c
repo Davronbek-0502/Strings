@@ -1,22 +1,14 @@
 #include <stdio.h>
-
-int main(){
-
+int main()
+{
+    char c;
     int n;
-    printf("Enter n: ");
-    scanf("%d",&n);
-
-    char hello[] = "mening ikkinchi stringim";
-    int strings = sizeof(hello)/sizeof(hello[0]);
-
-    for(int i=0; i<strings; i++){
-         n = hello[i];
-
-
-        printf("%c", hello[i]);
+    printf("Enter n : ");
+    scanf("%d", &n);
+    printf("%d", c);
+    if(32<n<=126){
+        c==n;
     }
-    printf(".\n");
-
-
+    printf("%d\n",c);
     return 0;
-}
+} 
