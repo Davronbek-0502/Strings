@@ -1,11 +1,10 @@
-
 #include <stdio.h>
-int main() {  
-    int n;
+int main()
+{
+    char c;
     printf("Enter n : ");
-    scanf("%d", &n);  
-
-    printf(" %d n = %c\n", n, n);
-
+    scanf("%s", &c);
+    printf("%d", c);
+    printf("\n");
     return 0;
-}
+} 
