@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main(){
-
+     printf("\n");
     char satr[100];
 
     printf("Satrni kiriting: ");
@@ -17,7 +17,7 @@ int main(){
     for(int i=0; i<satr_olchami-1; i++){
         printf("%c", satr[i]);
         for(int j=0; j<N; j++){
-            printf("*");
+            printf(" ");
         }
     }
 
