@@ -1,29 +1,22 @@
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <stdbool.h>
+#include <locale.h>
+
+
 int main()
 {
+    setlocale(LC_ALL, "Russian");
+
+    char ism[100];
+
+    printf("ismingizni kiriting : ");
+    scanf("%s", ism);
+
+    int ism_olchami = strlen(ism)-1;
+    printf("ismingiz %d-ta harifdan iborat ", ism_olchami);
     printf("\n");
-    char satr[100];
-
-
-    printf("Satr kiriting : ");
-    fgets(satr, 100, stdin);
-
-    int satr_olchami = strlen(satr)-1;
-    printf("\n");
+    printf("%s\n", ism);
     
-    int k=0;
-    for (int i = 0; i < satr[i]; i++)
-    {
-        if (satr[i]>=97 && satr[i]<=122){
-        k++;
-    }
-    }
-        printf("harflar soni:%d\n", k);
-        printf("\n");
-
-    return 0;
+    return  0;
 }

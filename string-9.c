@@ -10,6 +10,7 @@ int main()
 
     printf("familiyangizni kiriting : ");
     scanf("%s", familiya);
+
    
     printf("Natija : %s %s",ism,familiya);
     printf("\n\n");
