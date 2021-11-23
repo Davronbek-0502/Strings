@@ -31,6 +31,6 @@ int main()
     {
         printf("%c", familiya[j]);
     }
-
+    
     return 0;
 }
